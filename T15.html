@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://demo.avactis.com/4.7.9/" />
+<title>T15 - Checkout Logged Out</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">T15 - Checkout Logged Out</td></tr>
+</thead><tbody>
+<tr>
+	<td>deleteAllVisibleCookies</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Furniture</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#ProductForm_169 &gt; div.product_img.pi-img-wrapper &gt; a &gt; img.img-responsive</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Add To Cart']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>link=1 items</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=My cart</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.form-group &gt; a.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=billingInfo[Firstname]</td>
+	<td>a</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=billingInfo[Lastname]</td>
+	<td>a</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=billingInfo[Email]</td>
+	<td>a@a.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=billingInfo[Postcode]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=billingInfo[City]</td>
+	<td>a</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=billingInfo[Phone]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=shippingInfo[Firstname]</td>
+	<td>a</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=shippingInfo[Lastname]</td>
+	<td>a</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=shippingInfo[Email]</td>
+	<td>a@a.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=shippingInfo[Postcode]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Continue Checkout']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//*[@id='step2'][contains(@style, 'display: block')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.checkout_2.elements['shippingModuleAndMethod[method_code]'][1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@value='Continue Checkout'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//*[@id='step3'][contains(@style, 'display: block')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Place Order']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1</td>
+	<td>Thank you for your order!</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h1</td>
+	<td>Thank you for your order!</td>
+</tr>
+</tbody></table>
+</body>
+</html>

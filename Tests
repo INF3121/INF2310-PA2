@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="T20.html">T20 - Register Without Password</a></td></tr>
+<tr><td><a href="T01.html">T01 - Register New User</a></td></tr>
+<tr><td><a href="T19.html">T19 - Change Password Without Current</a></td></tr>
+<tr><td><a href="T10.html">T10 - Change Password</a></td></tr>
+<tr><td><a href="T13.html">T13 - Logout</a></td></tr>
+<tr><td><a href="T02.html">T02 - Register Old User</a></td></tr>
+<tr><td><a href="T05.html">T05 - Login With Wrong Password</a></td></tr>
+<tr><td><a href="T14.html">T14 - Login</a></td></tr>
+<tr><td><a href="T06.html">T06 - Checkout Empty</a></td></tr>
+<tr><td><a href="T03.html">T03 - Adding Item To Cart</a></td></tr>
+<tr><td><a href="T17.html">T17 - Cart Stored</a></td></tr>
+<tr><td><a href="T04.html">T04 - Max Quantity</a></td></tr>
+<tr><td><a href="T09.html">T09 - Add More and Max Quantity</a></td></tr>
+<tr><td><a href="T07.html">T07 - Checkout Items</a></td></tr>
+<tr><td><a href="T08.html">T08 - Remove Item</a></td></tr>
+<tr><td><a href="T15.html">T15 - Checkout Logged Out</a></td></tr>
+<tr><td><a href="T16.html">T16 - Checkout Empty Logged Out</a></td></tr>
+<tr><td><a href="T18.html">T18 - Buying Without Enough Info</a></td></tr>
+<tr><td><a href="T11.html">T11 - Forgotten Password</a></td></tr>
+<tr><td><a href="T12.html">T12 - Unregistered Forgotten Password</a></td></tr>
+</tbody></table>
+</body>
+</html>
